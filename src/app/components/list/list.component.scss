@@ -1,0 +1,44 @@
+.listComponent {
+    height: 100vh;
+    background-color: rgb(241, 240, 240);
+
+    .done {
+        text-decoration: line-through;
+    }
+
+    .title {
+        color: rgb(9, 63, 9);
+    }
+
+    .table {
+        border-top: 1px solid rgb(202, 201, 201);
+    }
+
+    .delete {
+        color      : red;
+        font-weight: bold;
+        cursor     : pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        background-color: #fff;
+        border-radius: 10px;
+        color: rgb(9, 63, 9);
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    h3{
+        color: rgb(9, 63, 9);
+    }
+
+    hr{
+        background-color: rgb(190, 190, 190);
+    }
+}
