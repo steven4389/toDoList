@@ -35,7 +35,7 @@ describe('ListComponent', () => {
       fixture.whenStable().then(() => {
         console.log('component.todos[0]',component.todos[0]);
         
-        expect(component.todos[0]).toEqual('peinar el niño');
+        expect(component.todos[0].name).toEqual('peinar el niño');
       })
     })
 
